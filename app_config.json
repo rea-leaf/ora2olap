@@ -1,0 +1,25 @@
+{
+  "oracle": {
+    "host": "192.168.6.66",
+    "port": "1521",
+    "service_name": "PHXORCL",
+    "schema": "HISOPT",
+    "user": "hisopt",
+    "password": "hisopt",
+    "thick_mode": true,
+    "client_dir": ""
+  },
+  "clickhouse": {
+    "host": "192.168.6.199",
+    "port": "8123",
+    "database": "corexdb",
+    "user": "hisqry",
+    "password": ""
+  },
+  "options": {
+    "table_filter": "",
+    "execute_on_clickhouse": false,
+    "create_db_if_not_exists": false,
+    "skip_existing_tables": false
+  }
+}
